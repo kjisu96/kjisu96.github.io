@@ -19,3 +19,5 @@ redirect_from:
 
 {% include_relative includes/4_others.md %}
 
+{% include_relative includes/6_chips.md %}
+
