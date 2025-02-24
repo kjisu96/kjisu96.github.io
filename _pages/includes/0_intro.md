@@ -2,7 +2,7 @@ I am a Ph.D. student in the School of Electronic and Electrical Engineering at [
 
 My research mainly foceses on **efficient MCU, AP architecture**, with contributions in:
 
-- ``SW`` ``FW`` Efficient MCU's firmware update: 
+- ``SW`` ``FW`` Efficient MCU's firmware update: My work includes 
 - `HW` Efficient hardware design: My work include Armv6 compatible ISA-based accelerator.
 - `HW` `SW` Efficient software-embedded SoC verification platform: 
 - `HW` Automotive IP RTL Design: My work include DSI3, SENT module design for automotive sensor ASICs.
@@ -11,4 +11,4 @@ My research aims to achieve **efficient AI accelerator utilization and virtualiz
 
 I was selected as the first integrated B.S./M.S./Ph.D. student at university and was awarded a Ph.D. Research Fellowship from the [National Research Foundation (NRF) of Korea](https://www.nrf.re.kr/eng/index).
 
-I am currently seeking postdoctoral opportunities. If you have any advice or are interested in exploring academic collaborations, please feel free to contact me. I look forward to your insights and suggestions.
+I am currently seeking postdoctoral opportunities. If you have any advice or are interested in exploring academic collaborations, please feel free to read my CV and contact me. I look forward to your insights and suggestions.
