@@ -5,7 +5,7 @@
 <div class='paper-box'>
 <div class='paper-box-image'><div>
 <div class="badge">Journal</div>
-<img src='images/paper/500x300.png' alt="sym" width="100%"></div></div>
+<img src='images/paper/ieice_te_21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**IEICE TE’21**</em>] [Low-Power Fast Partial Firmware Update Technique of On-Chip 
@@ -28,7 +28,7 @@ Flash Memory for Reliable Embedded IoT Microcontroller](https://doi.org/10.1587/
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/500x300.png' alt="sym" width="100%"></div></div>
+<img src='images/paper/coolchips_20.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [<em>**IEEE COOLChips’20**</em>] [User Insensible Sliding Firmware Update Technique for 
 Flash-Area/Time-Cost Reduction toward Low-Power Embedded Software Replacement](https://doi.org/10.1109/COOLCHIPS49199.2020.9097638) \\
@@ -66,7 +66,7 @@ Flash-Area/Time-Cost Reduction toward Low-Power Embedded Software Replacement](h
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/500x300.png' alt="sym" width="100%"></div></div>
+<img src='images/paper/vlsi_tsa_25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [<em>**VLSI-TSA’25**</em>] [Sliding-Window-based Fast and Lightweight ADC Pseudo-Randomness 
 Compensation Technique for Low-Cost ADC]() \\
@@ -91,7 +91,7 @@ Compensation Technique for Low-Cost ADC]() \\
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/500x300.png' alt="sym" width="100%"></div></div>
+<img src='images/paper/mwscas_23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [<em>**IEEE MWSCAS’23**</em>] [Hardware Accelerator Processing Element Unit Dynamic Pruning using 
 Runtime RTL Simulation Reconﬁguration](https://doi.org/10.1109/MWSCAS57524.2023.10406146) \\
@@ -125,7 +125,7 @@ Runtime RTL Simulation Reconﬁguration](https://doi.org/10.1109/MWSCAS57524.202
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Journal</div>
-<img src='images/paper/500x300.png' alt="sym" width="100%"></div></div>
+<img src='images/paper/appliedsciences_25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**Applied Sciences’25**</em>] [MAIL: Micro-Accelerator-in-the-Loop Framework for MCU Integrated 
@@ -143,7 +143,7 @@ Accelerator Peripheral Fast Prototyping](https://doi.org/10.3390/app15031056) \\
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/500x300.png' alt="sym" width="100%"></div></div>
+<img src='images/paper/emsoft_23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**ACM/IEEE EMSOFT’23**</em>] [Work-in-Progress: Micro-Accelerator-in-the-Loop Framework for MCU 
@@ -169,7 +169,7 @@ Integrated Accelerator Peripheral Fast Prototyping](https://doi.org/10.1145/3607
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/500x300.png' alt="sym" width="100%"></div></div>
+<img src='images/paper/iscas_21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**IEEE ISCAS’21**</em>] [Metamorphic Edge Processor Simulation Framework Using Flexible 
@@ -200,7 +200,7 @@ Runtime Partial Replacement of Software-Embedded Verilog RTL Models,](https://do
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Journal</div>
-<img src='images/paper/500x300.png' alt="sym" width="100%"></div></div>
+<img src='images/paper/ieee_esl_23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**IEEE ESL’23**</em>] [Eﬃcient Partial Weight Update Techniques for Lightweight On-Device Learning
@@ -219,7 +219,7 @@ on Tiny Flash-Embedded MCUs](https://doi.org/10.1109/LES.2023.3298731) \\
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/500x300.png' alt="sym" width="100%"></div></div>
+<img src='images/paper/hpc_asia_21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**HPC-Asia’21**</em>] [Toward Data-Adaptable TinyML Using Model Partial Replacement for Resource 
@@ -272,7 +272,7 @@ Frugal Edge Device](https://doi.org/10.1145/3432261.3439865) \\
 <div class='book-box'>
 <div class='book-box-image'><div>
 <div class="badge">Korean</div>
-<img src='images/paper/book1.jpg' alt="sym" width="180px"></div></div>
+<img src='images/paper/book1.jpg' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
 
 [Low-Power Digital System Design - Practical Approach](https://books.google.co.kr/books?id=_oZOEAAAQBAJ), TNES, 2021. \\
