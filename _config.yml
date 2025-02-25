@@ -27,7 +27,7 @@ author:
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Ph.D. Student, Kyungpook National University"
   location         : "Daegu, South Korea"
-  cv			   : "https://1drv.ms/b/s!Ahw8uwAoq07JnJB8jUDGGIoyAcsvuQ?e=U2gPuQ"
+  cv			         : "https://1drv.ms/b/s!Ahw8uwAoq07JnJB8jUDGGIoyAcsvuQ?e=U2gPuQ"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3Wz73U4AAAAJ&hl=ko"
@@ -40,13 +40,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/kjisu96"
+  github           : "kjisu96"
   google_plus      :
   keybase          :
   instagram        : 
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/jisu-kwon-9b4a74194/"
+  linkedin         : "jisu-kwon-9b4a74194/"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : "https://orcid.org/0000-0002-0433-9533"
   pinterest        :
