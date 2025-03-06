@@ -1,13 +1,12 @@
+# 📝 Publications
 
-# 📝 Publications 
 ## 1️⃣ Efficient Firmware
 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
 <div class="badge">Journal</div>
-<img src='images/paper/ieice_te_21.png' alt="sym" width="100%"></div></div>
+<img src='../../images/paper/ieice_te_21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 [<em>**IEICE TE’21**</em>] [Low-Power Fast Partial Firmware Update Technique of On-Chip 
 Flash Memory for Reliable Embedded IoT Microcontroller](https://doi.org/10.1587/transele.2020LHP0001) \\
 **<u>Jisu Kwon</u>**, Moon Gi Seok, and Daejin Park
@@ -17,9 +16,12 @@ Flash Memory for Reliable Embedded IoT Microcontroller](https://doi.org/10.1587/
 <!--<strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:d1gkVwhDpl0C'></span></strong>!-->
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
+- Low-power, fast partial firmware update using function maps for efficient on-chip flash memory management. 
 
-- Propose an efficient and robust video-language pre-training method.
+- Function map enables efficient updates by modifying block addresses without rewriting whole memory. 
+
+- Reduces update time, energy use, and memory overhead in IoT microcontrollers.
+
 
 </div>
 </div>
@@ -28,20 +30,22 @@ Flash Memory for Reliable Embedded IoT Microcontroller](https://doi.org/10.1587/
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/coolchips_20.png' alt="sym" width="100%"></div></div>
+<img src='../../images/paper/coolchips_20.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [<em>**IEEE COOLChips’20**</em>] [User Insensible Sliding Firmware Update Technique for 
 Flash-Area/Time-Cost Reduction toward Low-Power Embedded Software Replacement](https://doi.org/10.1109/COOLCHIPS49199.2020.9097638) \\
 **<u>Jisu Kwon</u>**, Moon Gi Seok, and Daejin Park
 
-<a href=""><strong>Slides</strong></a>
+
+<a href="https://1drv.ms/b/s!Ahw8uwAoq07JgqwenDtbBhtat-EnqQ?e=gnA4NC"><strong>Slides</strong></a>
 \|
-<a href=""><strong>Poster</strong></a>
+<a href="https://1drv.ms/v/s!Ahw8uwAoq07Jha0oOs2-2SYyRVfi9g?e=PZvejb"><strong>Video</strong></a>
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
+- User insensible sliding firmware update reduces flash memory usage and device pause time by updating only function blocks instead of entire firmware. 
 
-- Propose an efficient and robust video-language pre-training method.
+- Achieves 63.64% memory overhead reduction, 79.98% pause time reduction, and 78.78% energy consumption reduction.
+
 
 </div>
 </div>
@@ -66,12 +70,11 @@ Flash-Area/Time-Cost Reduction toward Low-Power Embedded Software Replacement](h
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/vlsi_tsa_25.png' alt="sym" width="100%"></div></div>
+<img src='../../images/paper/vlsi_tsa_25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [<em>**VLSI-TSA’25**</em>] [Sliding-Window-based Fast and Lightweight ADC Pseudo-Randomness 
 Compensation Technique for Low-Cost ADC]() \\
 **<u>Jisu Kwon</u>**, and Daejin Park
-
 (Accepted) \|
 <a href=""><strong>Slides</strong></a>
 \|
@@ -80,9 +83,12 @@ Compensation Technique for Low-Cost ADC]() \\
 <!--<strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:d1gkVwhDpl0C'></span></strong>!-->
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
+- Sliding-window-based ADC compensation reduces noise using neural networks. 
 
-- Propose an efficient and robust video-language pre-training method.
+- Minimizes hardware usage, enhances ADC performance with software compensation. 
+
+- Achieves 1.61× ENOB improvement, 5.82× processing time reduction under 20 dB noise.
+
 
 </div>
 </div>
@@ -91,20 +97,22 @@ Compensation Technique for Low-Cost ADC]() \\
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/mwscas_23.png' alt="sym" width="100%"></div></div>
+<img src='../../images/paper/mwscas_23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [<em>**IEEE MWSCAS’23**</em>] [Hardware Accelerator Processing Element Unit Dynamic Pruning using 
 Runtime RTL Simulation Reconﬁguration](https://doi.org/10.1109/MWSCAS57524.2023.10406146) \\
 **<u>Jisu Kwon</u>**, Heuijee Yun, and Daejin Park
 
-<a href=""><strong>Slides</strong></a>
-\|
-<a href=""><strong>Poster</strong></a>
+
+<a href="https://1drv.ms/b/s!Ahw8uwAoq07JnLFG9LX7L1t-S7ad1A?e=7DkoqO"><strong>Poster</strong></a>
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
+- Dynamic MAC unit pruning reduces neural accelerator area and power consumption by removing inactive processing elements. 
 
-- Propose an efficient and robust video-language pre-training method.
+- Empirical RTL simulation analyzes signal switching to optimize pruning while maintaining accuracy. 
+
+- Achieves up to 9.78% signal switching reduction, 4.25% area savings, and only 1% accuracy loss.
+
 
 </div>
 </div>
@@ -125,7 +133,7 @@ Runtime RTL Simulation Reconﬁguration](https://doi.org/10.1109/MWSCAS57524.202
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Journal</div>
-<img src='images/paper/appliedsciences_25.png' alt="sym" width="100%"></div></div>
+<img src='../../images/paper/appliedsciences_25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**Applied Sciences’25**</em>] [MAIL: Micro-Accelerator-in-the-Loop Framework for MCU Integrated 
@@ -133,8 +141,10 @@ Accelerator Peripheral Fast Prototyping](https://doi.org/10.3390/app15031056) \\
 **<u>Jisu Kwon</u>**, and Daejin Park
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
-- Propose an efficient and robust video-language pre-training method.
+- Micro-Accelerator-in-the-Loop (MAIL) framework enables fast prototyping of MCU-integrated accelerators for TinyML. 
+- Combines software emulation and cycle-accurate RTL simulation to evaluate hardware-software interaction. 
+- Supports parameter exploration for optimizing accelerator performance and resource usage. 
+- Reduces latency and improves efficiency in TinyML applications.
 
 </div>
 </div>
@@ -143,7 +153,7 @@ Accelerator Peripheral Fast Prototyping](https://doi.org/10.3390/app15031056) \\
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/emsoft_23.png' alt="sym" width="100%"></div></div>
+<img src='../../images/paper/emsoft_23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**ACM/IEEE EMSOFT’23**</em>] [Work-in-Progress: Micro-Accelerator-in-the-Loop Framework for MCU 
@@ -151,16 +161,19 @@ Integrated Accelerator Peripheral Fast Prototyping](https://doi.org/10.1145/3607
 **<u>Jisu Kwon</u>**, and Daejin Park
 
 <span style="color:red">(BK21+ CS SCI Conference)</span> \|
-<a href=""><strong>Slides</strong></a>
+<a href="https://1drv.ms/b/s!Ahw8uwAoq07JnLFEw-rbFHWcq2cxCA?e=tmSnL4"><strong>Slides</strong></a>
 \|
-<a href=""><strong>Poster</strong></a>
+<a href="https://1drv.ms/b/s!Ahw8uwAoq07Jha9D4hfo2DLuDC_Lzw?e=QPNyZR"><strong>Poster</strong></a>
 
 <!--<strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:d1gkVwhDpl0C'></span></strong>!-->
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
+- Micro-Accelerator-in-the-Loop (MAIL) framework enables fast prototyping of MCU-integrated accelerators. 
 
-- Propose an efficient and robust video-language pre-training method.
+- Combines system emulation and cycle-accurate RTL simulation for efficient performance profiling. 
+
+- Achieves up to 84.32% and 61.32% cycle latency reduction in TinyML applications.
+
 
 </div>
 </div>
@@ -169,21 +182,24 @@ Integrated Accelerator Peripheral Fast Prototyping](https://doi.org/10.1145/3607
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/iscas_21.png' alt="sym" width="100%"></div></div>
+<img src='../../images/paper/iscas_21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**IEEE ISCAS’21**</em>] [Metamorphic Edge Processor Simulation Framework Using Flexible 
 Runtime Partial Replacement of Software-Embedded Verilog RTL Models,](https://doi.org/10.1109/ISCAS51556.2021.9401354) \\
 **<u>Jisu Kwon</u>**, Sejong Oh, and Daejin Park
 
-<a href=""><strong>Slides</strong></a>
+<a href="https://1drv.ms/b/s!Ahw8uwAoq07Jha4hlGBFzgTL1wWwAw?e=MvfaXq"><strong>Slides</strong></a>
 \|
-<a href=""><strong>Poster</strong></a>
+<a href="https://1drv.ms/v/s!Ahw8uwAoq07Jha4kj_RQJel8DrqPrw?e=c34at3"><strong>Video</strong></a>
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
+- Metamorphic edge processor simulation framework accelerates RTL verification by replacing redundant models with software emulation. 
 
-- Propose an efficient and robust video-language pre-training method.
+- Virtual layer enables dynamic partial RTL model replacement at runtime. 
+
+- Achieves significant simulation speedup while maintaining parameter exploration flexibility.
+
 
 </div>
 </div>
@@ -200,17 +216,24 @@ Runtime Partial Replacement of Software-Embedded Verilog RTL Models,](https://do
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Journal</div>
-<img src='images/paper/ieee_esl_23.png' alt="sym" width="100%"></div></div>
+<img src='../../images/paper/ieee_esl_23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 [<em>**IEEE ESL’23**</em>] [Eﬃcient Partial Weight Update Techniques for Lightweight On-Device Learning
 on Tiny Flash-Embedded MCUs](https://doi.org/10.1109/LES.2023.3298731) \\
 **<u>Jisu Kwon</u>**, and Daejin Park
 
+<a href="https://1drv.ms/b/s!Ahw8uwAoq07JnLFCSOXpIN28wxZ0nw?e=vJgoll"><strong>Slides</strong></a>
+\|
+<a href="https://1drv.ms/b/s!Ahw8uwAoq07Jha8zIctKN3WWTFoTeA?e=FHnSSo"><strong>Poster</strong></a> \|
+<a href="https://1drv.ms/v/s!Ahw8uwAoq07Jh71ruhkLCgcVawzsMQ?e=vI2I04"><strong>Video</strong></a>
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
 
-- Propose an efficient and robust video-language pre-training method.
+- Partial weight update technique reduces memory usage in on-device learning by updating only selected weights stored in flash. 
+
+- Gradient-based selection minimizes accuracy loss while optimizing SRAM usage. 
+
+- Achieves 76.1% accuracy with only 18.52% weight updates, reducing APDP by up to 46.9%.
+
 
 </div>
 </div>
@@ -219,21 +242,24 @@ on Tiny Flash-Embedded MCUs](https://doi.org/10.1109/LES.2023.3298731) \\
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
 <div class="badge">Conference</div>
-<img src='images/paper/hpc_asia_21.png' alt="sym" width="100%"></div></div>
+<img src='../../images/paper/hpc_asia_21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**HPC-Asia’21**</em>] [Toward Data-Adaptable TinyML Using Model Partial Replacement for Resource 
 Frugal Edge Device](https://doi.org/10.1145/3432261.3439865) \\
 **<u>Jisu Kwon</u>**, and Daejin Park
 
-<a href=""><strong>Slides</strong></a>
+<a href="https://1drv.ms/b/s!Ahw8uwAoq07Jha4uMuLrP4iU9T4Hgg?e=ixQBbN"><strong>Poster</strong></a>
 \|
-<a href=""><strong>Poster</strong></a>
+<a href="https://1drv.ms/v/s!Ahw8uwAoq07Jha4zLKuO1bycos3bMw?e=T5YnIm"><strong>Video</strong></a>
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
+- Model partial replacement enables data-adaptable TinyML by updating only specific network components in resource-limited edge devices. 
 
-- Propose an efficient and robust video-language pre-training method.
+- Reduces model size, maintains accuracy, and optimizes flash memory usage. 
+
+- Enhances inference efficiency without full firmware updates.
+
 
 </div>
 </div>
@@ -272,7 +298,7 @@ Frugal Edge Device](https://doi.org/10.1145/3432261.3439865) \\
 <div class='book-box'>
 <div class='book-box-image'><div>
 <div class="badge">Korean</div>
-<img src='images/paper/book1.jpg' alt="sym" width="190px"></div></div>
+<img src='../../images/paper/book1.jpg' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
 
 [Low-Power Digital System Design - Practical Approach](https://books.google.co.kr/books?id=_oZOEAAAQBAJ), TNES, 2021. \\

@@ -5,10 +5,10 @@ Under constuction.
 <div class='book-box'>
 <div class='book-box-image'><div>
 <div class="badge">Jul.2024</div>
-<img src='images/chip/cnn.png' alt="sym" width="190px"></div></div>
+<img src='../../images/chip/cnn.png' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
 
-[<em>**Samsung Foundry 28nm**</em>] **Reconfigurable Bridge Integrated CNN Accelerator**
+[<em>**Samsung 28nm**</em>] **Reconfigurable Bridge Integrated CNN Accelerator**
 
 - APB DMA support
 - External MCK, SCK, LRCK support
@@ -25,10 +25,10 @@ Under constuction.
 <div class='book-box'>
 <div class='book-box-image'><div>
 <div class="badge">Dec.2023</div>
-<img src='images/chip/arm.png' alt="sym" width="190px"></div></div>
+<img src='../../images/chip/arm.png' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
 
-[<em>**SK Key Foundry 130nm**</em>] **Tile-connected Scalable CNN Accelerator**
+[<em>**SK Key 130nm**</em>] **Tile-connected Scalable CNN Accelerator**
 
 - APB DMA support
 - External MCK, SCK, LRCK support
@@ -44,10 +44,10 @@ Under constuction.
 <div class='book-box'>
 <div class='book-box-image'><div>
 <div class="badge">Dec.2023</div>
-<img src='images/chip/tile.png' alt="sym" width="190px"></div></div>
+<img src='../../images/chip/tile.png' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
 
-[<em>**SK Key Foundry 130nm**</em>] **Arm Cortex-M0+ compatible MCU**
+[<em>**SK Key 130nm**</em>] **Arm Cortex-M0+ compatible MCU**
 
 - APB DMA support
 - External MCK, SCK, LRCK support
@@ -63,8 +63,9 @@ Under constuction.
 <div class='book-box'>
 <div class='book-box-image'><div>
 <div class="badge">Feb.2022</div>
-<img src='images/500x300.png' alt="sym" width="190px"></div></div>
+<img src='../../images/500x300.png' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
+
 
 [<em>**Confidential**</em>] **DSI3 IP module for Ultrasonic Sensor**
 
@@ -79,12 +80,12 @@ Under constuction.
 </div>
 </div>
 
-
 <div class='book-box'>
 <div class='book-box-image'><div>
 <div class="badge">Jan.2022</div>
-<img src='images/500x300.png' alt="sym" width="190px"></div></div>
+<img src='../../images/500x300.png' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
+
 
 [<em>**Confidential**</em>] **SENT IP module for Force Sensor**
 
@@ -100,14 +101,13 @@ Under constuction.
 </div>
 </div>
 
-
 <div class='book-box'>
 <div class='book-box-image'><div>
 <div class="badge">Apr.2021</div>
-<img src='images/chip/i2s.png' alt="sym" width="190px"></div></div>
+<img src='../../images/chip/i2s.png' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
 
-[<em>**DB Foundry 180nm**</em>] **I2S IP module for AMBA peripheral**
+[<em>**DB HiTek 180nm**</em>] **I2S IP module for AMBA peripheral**
 
 
 - APB DMA support
