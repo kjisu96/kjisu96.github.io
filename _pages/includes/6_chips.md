@@ -1,23 +1,16 @@
 # 🛠 Chips
 
-Under constuction.
-
 <div class='book-box'>
 <div class='book-box-image'><div>
 <div class="badge">Jul.2024</div>
 <img src='../../images/chip/cnn.png' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
+[<em>**Samsung 28nm**</em>] **HAB-1**
 
-[<em>**Samsung 28nm**</em>] **Reconfigurable Bridge Integrated CNN Accelerator**
-
-- APB DMA support
-- External MCK, SCK, LRCK support
-- Master/Slave and TX/RX support
-- Small error LRCK frequency generation (22.05KHz, 44.1KHz, 48KHz, 96KHz, 192KHz)
-- 2-types format support (Aligned, I2S)
-- Mono channel support
-- Interrupts support
-
+- Reconfigurable Bridge between Host and integrated CNN Accelerator 
+- Runtime bridge data transfer scheduling reconfigure support 
+- 2-channel MPI interfaces for accelerator control
+- Extra MPI external slot for scalable accelerator expansion
 
 </div>
 </div>
@@ -27,16 +20,12 @@ Under constuction.
 <div class="badge">Dec.2023</div>
 <img src='../../images/chip/arm.png' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
+[<em>**SK Key 130nm**</em>] **InfiniTYle**
 
-[<em>**SK Key 130nm**</em>] **Tile-connected Scalable CNN Accelerator**
-
-- APB DMA support
-- External MCK, SCK, LRCK support
-- Master/Slave and TX/RX support
-- Small error LRCK frequency generation (22.05KHz, 44.1KHz, 48KHz, 96KHz, 192KHz)
-- 2-types format support (Aligned, I2S)
-- Mono channel support
-- Interrupts support
+- Arm Cortex-M0+ compatible custom ISA
+- Custom SIMD instruction support
+- Virtual scalable flash memory using off-chip QSPI interface
+- 2-channel custom ***Tile-SoC*** interface for accelerator control
 
 </div>
 </div>
@@ -46,16 +35,11 @@ Under constuction.
 <div class="badge">Dec.2023</div>
 <img src='../../images/chip/tile.png' alt="sym" width="190px"></div></div>
 <div class='book-box-text' markdown="1">
+[<em>**SK Key 130nm**</em>] **Tile-SoC**
 
-[<em>**SK Key 130nm**</em>] **Arm Cortex-M0+ compatible MCU**
-
-- APB DMA support
-- External MCK, SCK, LRCK support
-- Master/Slave and TX/RX support
-- Small error LRCK frequency generation (22.05KHz, 44.1KHz, 48KHz, 96KHz, 192KHz)
-- 2-types format support (Aligned, I2S)
-- Mono channel support
-- Interrupts support
+- Tile-connected scalable CNN accelerator
+- Connect in all four directions (up, down, left, and right) for scalable extension
+- Accelerator compute utilization-aware load allocation by host (= ***InfiniTYle***)
 
 </div>
 </div>
@@ -69,13 +53,10 @@ Under constuction.
 
 [<em>**Confidential**</em>] **DSI3 IP module for Ultrasonic Sensor**
 
-- APB DMA support
-- External MCK, SCK, LRCK support
-- Master/Slave and TX/RX support
-- Small error LRCK frequency generation (22.05KHz, 44.1KHz, 48KHz, 96KHz, 192KHz)
-- 2-types format support (Aligned, I2S)
-- Mono channel support
-- Interrupts support
+- Tri-level current decoding link layer
+- Discovery mode support for daisy chain address assignment
+- Receive voltage command from master / transfer current response to slave
+- Periodic Data Collection Mode (PDCM) support
 
 </div>
 </div>
@@ -90,13 +71,10 @@ Under constuction.
 [<em>**Confidential**</em>] **SENT IP module for Force Sensor**
 
 
-- APB DMA support
-- External MCK, SCK, LRCK support
-- Master/Slave and TX/RX support
-- Small error LRCK frequency generation (22.05KHz, 44.1KHz, 48KHz, 96KHz, 192KHz)
-- 2-types format support (Aligned, I2S)
-- Mono channel support
-- Interrupts support
+- Synchronization/Calibration pulse support
+- Fast channel – Secure Message / High Speed Format support
+- Slow channel – Short Serial Message / Enhanced Serial Message support
+- Variable length pause pulse support 
 
 </div>
 </div>
