@@ -184,7 +184,6 @@ Integrated Accelerator Peripheral Fast Prototyping](https://doi.org/10.1145/3607
 <div class="badge">Conference</div>
 <img src='../../images/paper/iscas_21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 [<em>**IEEE ISCAS’21**</em>] [Metamorphic Edge Processor Simulation Framework Using Flexible 
 Runtime Partial Replacement of Software-Embedded Verilog RTL Models,](https://doi.org/10.1109/ISCAS51556.2021.9401354) \\
 **<u>Jisu Kwon</u>**, Sejong Oh, and Daejin Park
@@ -204,7 +203,7 @@ Runtime Partial Replacement of Software-Embedded Verilog RTL Models,](https://do
 </div>
 </div>
 
-- `IEEE ICAIIC’25` [A Dynamic Linking Framework for Eﬃcient QEMU Peripheral Development and Maintenance](), Gihyeon Jeon, **<u>Jisu Kwon</u>**, and Daejin Park.
+- `IEEE ICAIIC’25` [A Dynamic Linking Framework for Eﬃcient QEMU Peripheral Development and Maintenance](https://ieeexplore.ieee.org/document/10920785), Gihyeon Jeon, **<u>Jisu Kwon</u>**, and Daejin Park.
 
 ***
 
