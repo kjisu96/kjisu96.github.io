@@ -6,7 +6,8 @@
 
 # 💬 Invited Talks
 
-- *2023.08*, PIM Semiconductor Research Center in KAIST - Embedded C Programming for PIM Semiconductor
+- *2023.08*, PIM Semiconductor Research Center in KAIST - "Embedded C Programming for PIM Semiconductor"
+- *2023.02*, AI-Convergence ICT Research Group in KNU - "TinyML: Machine Learning World for Tiny Things"
 
 # 💁 Services
 
