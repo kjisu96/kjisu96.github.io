@@ -11,4 +11,4 @@
 
 # 💁 Services
 
-- **Journal Reviewer:** Heliyon, Journal of Supercomputing, Sensors, Applied Sciences
+- **Journal Reviewer:** Heliyon, Journal of Supercomputing, Sensors, Applied Sciences, JLPEA
