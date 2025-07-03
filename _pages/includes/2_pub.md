@@ -73,9 +73,8 @@ Flash-Area/Time-Cost Reduction toward Low-Power Embedded Software Replacement](h
 <img src='../../images/paper/vlsi_tsa_25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [<em>**VLSI-TSA’25**</em>] [Sliding-Window-based Fast and Lightweight ADC Pseudo-Randomness 
-Compensation Technique for Low-Cost ADC]() \\
+Compensation Technique for Low-Cost ADC](https://doi.org/10.1109/VLSITSA64674.2025.11046543) \\
 **<u>Jisu Kwon</u>**, and Daejin Park
-(Accepted) \|
 <a href=""><strong>Slides</strong></a>
 \|
 <a href=""><strong>Poster</strong></a>
