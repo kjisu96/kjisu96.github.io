@@ -1,6 +1,6 @@
 I am a Ph.D. student in the School of Electronic and Electrical Engineering at [Kyungpook National University](http://en.knu.ac.kr/) <img src='./images/knu.jpg' style='width: 3em;'>, advised by Prof. [Daejin Park](https://ai-soc.github.io/) <img src='./images/lab.jpg' style='width: 5em;'> from Sep. 2019. I received a bachelor's degree of Electronics Engineering from the same university at Aug. 2019 (ealry graduation). 
 
-My research mainly foceses on **efficient accelerators for MCU, AP architecture**, with contributions in:
+My research mainly focuses on **efficient accelerators for MCU, AP architecture**, with contributions in:
 
 - ``SW`` ``FW`` Efficient MCU firmware: I have worked extensively on tackling challenges for on-chip flash firmware update, such as robustness, and efficiency. My work includes achieving efficient IoT sensor nodes.
 - `HW` Efficient hardware design: I work to comprehensively mitigate hardware overhead, including Armv6 ISA compatible CNN accelerators, ADC error compensation with MLP, and customized accelerator controllers. Some of my recent work, including MPW chips, is currently under review.
