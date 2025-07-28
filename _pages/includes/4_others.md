@@ -1,7 +1,7 @@
 
 # 📖 Educations
-- *2019.09 - Present*, Ph.D. Student, Kyungpook National University, Daegu, South Korea.
-- *2014.03 - 2019.08*, Undergraduate, Kyungpook National University, Daegu, South Korea.
+- *2019.09 - 2025.08*, Ph.D. in Electronic Engineering, Kyungpook National University, Daegu, South Korea.
+- *2014.03 - 2019.08*, Undergraduate in Electronic Engineering, Kyungpook National University, Daegu, South Korea.
 - *2011.03 - 2014.02*, Keisung High School, Daegu, South Korea.
 
 # 💬 Invited Talks
