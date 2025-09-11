@@ -23,10 +23,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jisu Kwon (권지수)"
+  name             : "Jisu Kwon, Ph.D."
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Ph.D. Student, Kyungpook National University"
-  location         : "Daegu, South Korea"
+  bio              : "Post-doctoral Researcher @ KAIST"
+  location         : "Daejeon, South Korea"
   cv			         : "https://1drv.ms/b/c/c94eab2800bb3c1c/EWxDF8P87fJDnaa5X_PD-rQBaaENAK5slIki6fVpRdWDnw?e=QTpOgu"
   employer         :
   pubmed           : 
