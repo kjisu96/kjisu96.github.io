@@ -1,6 +1,8 @@
-# 📝 Publications
+# Publications
 
-## 1️⃣ Efficient Firmware
+<p class="section-intro">Selected journal articles, conference papers, and books across efficient firmware, hardware, SoC verification, and TinyML.</p>
+
+## Efficient Firmware
 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
@@ -64,7 +66,7 @@ Flash-Area/Time-Cost Reduction toward Low-Power Embedded Software Replacement](h
 
 
 
-## 2️⃣ Efficient Hardware
+## Efficient Hardware
 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
@@ -75,9 +77,6 @@ Flash-Area/Time-Cost Reduction toward Low-Power Embedded Software Replacement](h
 [<em>**VLSI-TSA’25**</em>] [Sliding-Window-based Fast and Lightweight ADC Pseudo-Randomness 
 Compensation Technique for Low-Cost ADC](https://doi.org/10.1109/VLSITSA64674.2025.11046543) \\
 **<u>Jisu Kwon</u>**, and Daejin Park
-<a href=""><strong>Slides</strong></a>
-\|
-<a href=""><strong>Poster</strong></a>
 
 <!--<strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:d1gkVwhDpl0C'></span></strong>!-->
 
@@ -126,7 +125,7 @@ Runtime RTL Simulation Reconﬁguration](https://doi.org/10.1109/MWSCAS57524.202
 
 
 
-## 3️⃣ SoC Verification
+## SoC Verification
 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
@@ -208,7 +207,7 @@ Runtime Partial Replacement of Software-Embedded Verilog RTL Models,](https://do
 
 
 
-## 4️⃣ TinyML
+## TinyML
 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
@@ -268,7 +267,7 @@ Frugal Edge Device](https://doi.org/10.1145/3432261.3439865) \\
 
 
 
-## ️5️⃣️ Others
+## Others
 
 - `ACM TMCS’25` [Hyperparameter Tuning with Gaussian Processes for Optimal Abstraction Control in Simulation-based Optimization of Smart Semiconductor Manufacturing Systems](https://doi.org/10.1145/3646549), Moon Gi Seok, Wen Jun Tan, Wentong Cai, **<u>Jisu Kwon</u>**, and Seon Han Choi.
 
@@ -276,7 +275,7 @@ Frugal Edge Device](https://doi.org/10.1145/3432261.3439865) \\
 
 
 
-## 6️⃣ Domestic Journal Articles
+## Domestic Journal Articles
 
 - `IEMEK JESA’22` [Collaborative Streamlined On-Chip Software Architecture on Heterogenous Multi-Cores for Low-Power Reactive Control in Automotive Embedded Processors](https://doi.org/10.14372/IEMEK.2022.17.6.375), **<u>Jisu Kwon</u>**, and Daejin Park.
 - `JKIICE’21` [Low-Power Metamorphic MCU using Partial Firmware Update Method for Irregular Target Systems Control](https://doi.org/10.6109/jkiice.2021.25.2.301), Jongheon Baek, Jiwoong Jung, Minsung Kim, **<u>Jisu Kwon</u>**, and Daejin Park.
@@ -291,7 +290,7 @@ Frugal Edge Device](https://doi.org/10.1145/3432261.3439865) \\
 
 
 
-##  7️⃣ Books and Chapters
+## Books and Chapters
 
 <div class='book-box'>
 <div class='book-box-image'><div>
@@ -316,4 +315,3 @@ Daejin Park, and **<u>Jisu Kwon</u>**
 
 </div>
 </div>
-

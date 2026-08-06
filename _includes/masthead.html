@@ -1,16 +1,32 @@
-<div class="masthead">
+<header class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+      <nav class="site-nav-custom" aria-label="Main navigation">
+        <a class="site-brand" href="/#about-me" aria-label="Jisu Kwon homepage">
+          <span class="site-brand__mark">JK</span>
+          <span class="site-brand__copy">
+            <strong>Jisu Kwon</strong>
+            <small>Hardware · Software · Systems</small>
+          </span>
+        </a>
+
+        <div class="site-nav-custom__links">
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
           {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
+          <a class="site-nav-custom__cta" href="{{ site.author.cv }}">CV</a>
+        </div>
+
+        <details class="site-nav-custom__mobile">
+          <summary aria-label="Open navigation"><span class="navicon"></span></summary>
+          <div class="site-nav-custom__mobile-links">
+            {% for link in site.data.navigation.main %}
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            {% endfor %}
+            <a href="{{ site.author.cv }}">CV</a>
+          </div>
+        </details>
       </nav>
     </div>
   </div>
-</div>
+</header>
