@@ -1,9 +1,3 @@
-<header class="publications-header">
-  <p class="section-kicker">Selected output</p>
-  <h2>Publications &amp; intellectual property.</h2>
-  <p>A compact index of peer-reviewed work and registered patents. Each result is presented as a single year-and-citation row.</p>
-</header>
-
 <div class="publication-groups">
   <section class="publication-group" aria-labelledby="journal-heading">
     <header class="publication-group__header">
