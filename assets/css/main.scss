@@ -233,6 +233,15 @@ summary:focus-visible {
   content: none !important;
 }
 
+.page__content #about-me {
+  margin-top: 0 !important;
+}
+
+.page__content #about-me::before {
+  display: none !important;
+  content: none !important;
+}
+
 .masthead {
   position: sticky;
   top: 0;
@@ -421,7 +430,9 @@ summary:focus-visible {
 .hero h1 {
   max-width: 610px;
   margin: 0 0 20px;
+  padding: 0;
   color: var(--site-ink);
+  border: 0;
   font-family: "Fraunces", "Iowan Old Style", Georgia, serif;
   font-size: clamp(46px, 4.1vw, 54px);
   font-weight: 600;
