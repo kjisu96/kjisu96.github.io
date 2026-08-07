@@ -132,7 +132,7 @@ redirect_from:
       </article>
     </div>
 
-    <div class="lab-carousel__controls lab-shell" aria-label="Project carousel controls">
+    <div class="lab-carousel__controls lab-shell" role="group" aria-label="Project carousel controls">
       <button type="button" data-carousel-direction="-1" aria-label="Previous project">←</button>
       <button type="button" data-carousel-direction="1" aria-label="Next project">→</button>
     </div>
