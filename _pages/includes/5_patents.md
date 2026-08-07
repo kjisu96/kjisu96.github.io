@@ -1,4 +1,4 @@
-# Patents
+# 📰 Patents
 
 - ``KR`` [Artificial Intelligence Computing System and Method](https://patents.google.com/patent/KR102835042B1/en), Daejin Park, and **<u>Jisu Kwon</u>**, 2025.
 - ``KR`` [Firmware System to Control Software Malfunction and Control Method Thereof](https://patents.google.com/patent/KR102673433B1/en), Daejin Park, and **<u>Jisu Kwon</u>**, 2024.

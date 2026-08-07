@@ -9,48 +9,53 @@ redirect_from:
 ---
 
 <section class="profile-hero" id="about-me">
+  <div class="profile-hero__index" aria-hidden="true">
+    <span>PROFILE / 001</span>
+    <span>KAIST · DAEJEON</span>
+  </div>
+
   <div class="profile-hero__copy">
-    <p class="eyebrow">Postdoctoral Researcher · KAIST</p>
-    <h1>Building efficient systems from <span>firmware to silicon.</span></h1>
-    <p class="profile-hero__lead">I design full-stack HW/SW/FW systems for efficient AI accelerators, embedded platforms, and faster SoC verification.</p>
+    <p class="eyebrow">Full-stack systems researcher</p>
+    <h1>Hardware<span>—</span><br>Software<span>—</span><br>Firmware.</h1>
+    <p class="profile-hero__lead">I connect the computing stack to build efficient AI accelerators, embedded platforms, and faster SoC verification flows.</p>
     <div class="profile-hero__actions">
-      <a class="button button--primary" href="#publications">Explore publications</a>
-      <a class="button button--secondary" href="mailto:{{ site.author.email }}">Get in touch</a>
+      <a class="button button--primary" href="#publications">View research output</a>
+      <a class="button button--secondary" href="mailto:{{ site.author.email }}">Email me</a>
     </div>
   </div>
 
-  <aside class="profile-card" aria-label="Jisu Kwon profile">
-    <img src="{{ site.author.avatar }}" alt="Jisu Kwon">
-    <div class="profile-card__body">
-      <p class="profile-card__role">{{ site.author.bio }}</p>
-      <h2>{{ site.author.name }}</h2>
-      <p>{{ site.author.location }}</p>
-      <div class="profile-card__links">
-        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-        <a href="{{ site.author.googlescholar }}">Scholar</a>
-        <a href="{{ site.author.linkedin | prepend: 'https://www.linkedin.com/in/' }}">LinkedIn</a>
-        <a href="{{ site.author.orcid }}">ORCID</a>
-      </div>
+  <figure class="profile-portrait">
+    <div class="profile-portrait__frame">
+      <img src="{{ site.author.avatar }}" alt="Jisu Kwon">
     </div>
-  </aside>
+    <figcaption>
+      <strong>{{ site.author.name }}</strong>
+      <span>{{ site.author.bio }}</span>
+      <span>{{ site.author.location }}</span>
+    </figcaption>
+  </figure>
 </section>
+
+<nav class="profile-links" aria-label="Profile links">
+  <span>Connect /</span>
+  <a href="https://github.com/{{ site.author.github }}">GitHub ↗</a>
+  <a href="{{ site.author.googlescholar }}">Scholar ↗</a>
+  <a href="{{ site.author.linkedin | prepend: 'https://www.linkedin.com/in/' }}">LinkedIn ↗</a>
+  <a href="{{ site.author.orcid }}">ORCID ↗</a>
+</nav>
 
 <section class="content-section content-section--tint" id="research" markdown="1">
 {% include_relative includes/0_intro.md %}
 </section>
 
-<section class="content-section" markdown="1">
+<section class="content-section content-section--publications" id="publications" markdown="1">
 {% include_relative includes/2_pub.md %}
 </section>
 
 <section class="content-section content-section--tint" markdown="1">
-{% include_relative includes/5_patents.md %}
-</section>
-
-<section class="content-section" markdown="1">
 {% include_relative includes/3_honers.md %}
 </section>
 
-<section class="content-section content-section--tint" id="experience" markdown="1">
+<section class="content-section" id="experience" markdown="1">
 {% include_relative includes/4_others.md %}
 </section>
