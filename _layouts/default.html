@@ -12,6 +12,10 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
+    <div class="construction-banner" role="status">
+      <strong>Website under construction</strong>
+      <span>Content and structure are being updated.</span>
+    </div>
     {% include masthead.html %}
 
     <main id="main">
@@ -32,7 +36,8 @@ layout: compress
         <div class="lab-footer__identity">
           <strong>Jisu Kwon Research</strong>
           <p>Full-stack co-design for efficient computing systems.</p>
-          <p>KAIST · Daejeon, South Korea</p>
+          <p>Department of Electronic Engineering</p>
+          <p>Korea National University of Transportation</p>
         </div>
         <nav aria-label="Research links">
           <h5>Research</h5>
@@ -47,7 +52,7 @@ layout: compress
           <a href="https://github.com/{{ site.author.github }}">GitHub</a>
         </nav>
       </div>
-      <div class="lab-shell lab-footer__bottom">© {{ 'now' | date: "%Y" }} Jisu Kwon Research · KAIST</div>
+      <div class="lab-shell lab-footer__bottom">© {{ 'now' | date: "%Y" }} Jisu Kwon Research · Korea National University of Transportation</div>
     </footer>
 
     {% include scripts.html %}

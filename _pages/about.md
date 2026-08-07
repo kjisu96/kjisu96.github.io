@@ -12,7 +12,7 @@ redirect_from:
   <div class="lab-shell">
     <h1>Full-stack co-design for <span class="tone-green">efficient AI accelerators</span>, <span class="tone-red">embedded platforms</span> and <span class="tone-blue">reliable SoC verification</span>.</h1>
     <p class="lab-hero__lead">Jisu Kwon develops hardware, software, and firmware together to make intelligent computing systems more efficient and practical.</p>
-    <p class="lab-hero__meta">Currently a post-doctoral researcher in the VLSI Laboratory at KAIST under the supervision of Prof. Bongjin Kim.</p>
+    <p class="lab-hero__meta">Jisu Kwon is an Assistant Professor in the Department of Electronic Engineering at Korea National University of Transportation.</p>
   </div>
 </section>
 
@@ -197,7 +197,8 @@ redirect_from:
         <img src="/{{ site.author.avatar }}" alt="Jisu Kwon">
         <div>
           <h3>Jisu Kwon</h3>
-          <p class="lab-member-card__role">Post-doctoral Researcher</p>
+          <p class="lab-member-card__role">Assistant Professor</p>
+          <p>Department of Electronic Engineering · Korea National University of Transportation</p>
           <p>Efficient hardware, firmware, AI accelerators, and SoC verification</p>
           <div class="lab-member-card__links">
             <a href="mailto:{{ site.author.email }}">Email</a>
