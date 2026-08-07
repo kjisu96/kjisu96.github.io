@@ -1,19 +1,16 @@
 # main links links
 main:
   - title: "Research"
-    url: "/#research"
+    url: "/research.html"
 
   - title: "News"
-    url: "/#news"
+    url: "/news.html"
 
-  - title: "Projects"
-    url: "/#projects"
+  - title: "Team"
+    url: "/team.html"
 
-  - title: "Papers"
+  - title: "Publications"
     url: "/publications.html"
 
-  - title: "Members"
-    url: "/#members"
-
   - title: "Contact"
-    url: "/#contact"
+    url: "/contact.html"

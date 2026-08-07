@@ -5,10 +5,11 @@ excerpt: ""
 author_profile: false
 ---
 
-<section class="lab-page-hero">
+<section class="lab-detail-hero">
   <div class="lab-shell">
+    <span class="lab-detail-hero__eyebrow">Publications</span>
     <h1>Publications</h1>
-    <p>Peer-reviewed journal articles, conference papers, and registered patents.</p>
+    <p>Peer-reviewed journal articles, conference papers, and registered patents. For the complete and most up-to-date list, see <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
   </div>
 </section>
 

@@ -2,7 +2,7 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav class="lab-nav" aria-label="Main site navigation">
-        <a class="lab-brand" href="/#home" aria-label="Jisu Kwon Research home">
+        <a class="lab-brand" href="/" aria-label="Jisu Kwon Research home">
           <span class="lab-brand__mark" aria-hidden="true">JK</span>
           <span class="lab-brand__divider" aria-hidden="true"></span>
           <span class="lab-brand__institution">
@@ -13,18 +13,16 @@
 
         <div class="lab-nav__links">
           {% for link in site.data.navigation.main %}
-            <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
           {% endfor %}
-          <a href="{{ site.author.cv }}">CV</a>
         </div>
 
         <details class="lab-nav__mobile">
           <summary aria-label="Open navigation"><span class="navicon"></span></summary>
           <div class="lab-nav__mobile-links">
             {% for link in site.data.navigation.main %}
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
             {% endfor %}
-            <a href="{{ site.author.cv }}">CV</a>
           </div>
         </details>
       </nav>

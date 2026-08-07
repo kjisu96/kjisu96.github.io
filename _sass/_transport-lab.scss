@@ -207,6 +207,12 @@ body summary:focus-visible {
   text-decoration-thickness: 1px;
 }
 
+.lab-nav__links a[aria-current="page"] {
+  color: var(--lab-blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
 .lab-nav__mobile {
   display: none;
 }
@@ -269,6 +275,11 @@ body summary:focus-visible {
 }
 
 .lab-nav__mobile-links a:hover {
+  background: #e9e6e0;
+}
+
+.lab-nav__mobile-links a[aria-current="page"] {
+  color: var(--lab-blue);
   background: #e9e6e0;
 }
 
@@ -417,8 +428,8 @@ body summary:focus-visible {
 .lab-news-item {
   display: grid;
   grid-template-columns: 170px minmax(0, 1fr);
-  gap: 28px;
-  padding: 24px 0 25px;
+  gap: 22px;
+  padding: 17px 0 18px;
   border-bottom: 1px solid var(--lab-line);
 }
 
@@ -429,7 +440,7 @@ body summary:focus-visible {
 }
 
 .lab-news-item h3 {
-  margin: 0 0 7px;
+  margin: 0 0 4px;
   color: var(--lab-ink);
   font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 20px;
@@ -651,27 +662,322 @@ body summary:focus-visible {
   text-decoration: none;
 }
 
-/* Publications index */
+/* Detail pages */
 
-.lab-page-hero {
+.lab-detail-hero {
   padding: 54px 0 48px;
   border-bottom: 1px solid var(--lab-line);
 }
 
-.lab-page-hero h1 {
+.lab-detail-hero__eyebrow {
+  display: block;
+  margin: 0 0 16px;
+  color: var(--lab-green);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.lab-detail-hero h1 {
+  max-width: 880px;
   margin: 0 0 12px;
   color: var(--lab-ink);
   font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 56px;
   font-weight: 500;
+  line-height: 1.08;
   letter-spacing: -0.05em;
 }
 
-.lab-page-hero p {
+.lab-detail-hero p {
+  max-width: 800px;
   margin: 0 !important;
   color: var(--lab-muted);
   font-size: 18px !important;
+  line-height: 1.6;
 }
+
+.lab-detail-hero p a {
+  color: var(--lab-ink);
+  text-decoration-thickness: 1px;
+}
+
+/* Research page */
+
+.lab-directions {
+  padding: 10px 0 72px;
+}
+
+.lab-direction {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 34px;
+  padding: 46px 0 48px;
+  border-bottom: 1px solid var(--lab-line);
+}
+
+.lab-direction__number {
+  padding-top: 7px;
+  color: var(--lab-green);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lab-direction h2 {
+  margin: 0 0 14px;
+  color: var(--lab-ink);
+  font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.lab-direction p {
+  max-width: 760px;
+  margin: 0 0 22px !important;
+  color: var(--lab-muted);
+  font-size: 17px !important;
+  line-height: 1.65;
+}
+
+.lab-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lab-tags span {
+  padding: 6px 10px;
+  color: var(--lab-text);
+  border: 1px solid var(--lab-line);
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+/* News page */
+
+.lab-news-page {
+  padding: 10px 0 72px;
+}
+
+.lab-news-page__list > article {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 34px;
+  padding: 38px 0 40px;
+  border-bottom: 1px solid var(--lab-line);
+}
+
+.lab-news-page time {
+  padding-top: 6px;
+  color: var(--lab-green);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.lab-news-page h2 {
+  max-width: 850px;
+  margin: 0 0 10px;
+  color: var(--lab-ink);
+  font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.025em;
+}
+
+.lab-news-page p {
+  max-width: 850px;
+  margin: 0 !important;
+  color: var(--lab-muted);
+  font-size: 15px !important;
+  line-height: 1.65;
+}
+
+/* Team page */
+
+.lab-team-page {
+  padding: 56px 0 78px;
+}
+
+.lab-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.lab-team-profile {
+  display: grid;
+  grid-column: span 2;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 30px;
+  min-height: 292px;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid var(--lab-line);
+}
+
+.lab-team-profile > img {
+  display: block;
+  width: 210px;
+  height: 236px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.lab-team-profile__body {
+  align-self: center;
+}
+
+.lab-team-profile__type,
+.lab-team-placeholder > span {
+  display: block;
+  margin: 0 0 7px;
+  color: var(--lab-green);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lab-team-profile h2,
+.lab-team-placeholder h2 {
+  margin: 0 0 5px;
+  color: var(--lab-ink);
+  font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+}
+
+.lab-team-profile__role {
+  margin: 0 0 16px !important;
+  color: var(--lab-red);
+  font-size: 14px !important;
+  font-weight: 600;
+}
+
+.lab-team-profile ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--lab-muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.lab-team-profile__links,
+.lab-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  margin-top: 18px;
+}
+
+.lab-team-profile__links a,
+.lab-contact-links a {
+  color: var(--lab-text);
+  border-bottom: 1px solid var(--lab-line);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.lab-team-profile__links a:hover,
+.lab-contact-links a:hover {
+  color: var(--lab-blue);
+  border-color: var(--lab-blue);
+}
+
+.lab-team-placeholder {
+  min-height: 292px;
+  padding: 28px;
+  background: transparent;
+  border: 1px dashed #bab6ae;
+}
+
+.lab-team-placeholder__mark {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  margin: 0 0 54px;
+  place-items: center;
+  color: var(--lab-muted);
+  border: 1px solid var(--lab-line);
+  border-radius: 50%;
+  font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.lab-team-placeholder p {
+  margin: 0 0 12px !important;
+  color: var(--lab-red);
+  font-size: 14px !important;
+  font-weight: 600;
+}
+
+.lab-team-placeholder small {
+  display: block;
+  max-width: 250px;
+  color: var(--lab-muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Contact page */
+
+.lab-contact-page {
+  padding: 56px 0 78px;
+}
+
+.lab-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.lab-contact-card {
+  min-height: 175px;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid var(--lab-line);
+}
+
+.lab-contact-card--wide {
+  grid-column: 1 / -1;
+  min-height: auto;
+}
+
+.lab-contact-card > span {
+  display: block;
+  margin: 0 0 24px;
+  color: var(--lab-green);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lab-contact-card > a {
+  color: var(--lab-ink);
+  font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  text-decoration-thickness: 1px;
+}
+
+.lab-contact-card > p {
+  margin: 0 !important;
+  color: var(--lab-text);
+  font-size: 16px !important;
+  line-height: 1.7;
+}
+
+/* Publications page */
 
 .lab-publications-page {
   padding: 54px 0 72px;
@@ -942,8 +1248,33 @@ body summary:focus-visible {
     height: 156px;
   }
 
-  .lab-page-hero h1 {
+  .lab-detail-hero h1 {
     font-size: 44px;
+  }
+
+  .lab-direction,
+  .lab-news-page__list > article {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .lab-team-grid,
+  .lab-contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lab-team-profile,
+  .lab-contact-card--wide {
+    grid-column: auto;
+  }
+
+  .lab-team-profile {
+    grid-template-columns: 1fr;
+  }
+
+  .lab-team-profile > img {
+    width: 176px;
+    height: 198px;
   }
 
   .lab-footer__grid {
