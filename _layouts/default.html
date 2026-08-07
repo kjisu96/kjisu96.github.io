@@ -27,6 +27,29 @@ layout: compress
       </article>
     </div>
 
+    <footer class="lab-footer" id="contact">
+      <div class="lab-shell lab-footer__grid">
+        <div class="lab-footer__identity">
+          <strong>Jisu Kwon Research</strong>
+          <p>Full-stack co-design for efficient computing systems.</p>
+          <p>KAIST · Daejeon, South Korea</p>
+        </div>
+        <nav aria-label="Research links">
+          <h5>Research</h5>
+          <a href="/#research">Research areas</a>
+          <a href="/#projects">Projects</a>
+          <a href="/publications.html">Papers</a>
+        </nav>
+        <nav aria-label="Profile links">
+          <h5>Find us</h5>
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+          <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+        </nav>
+      </div>
+      <div class="lab-shell lab-footer__bottom">© {{ 'now' | date: "%Y" }} Jisu Kwon Research · KAIST</div>
+    </footer>
+
     {% include scripts.html %}
 
   </body>

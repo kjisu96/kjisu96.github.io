@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jisu Kwon"
-description              : ""
+title                    : "Jisu Kwon Research"
+description              : "Full-stack hardware, software, and firmware research for efficient computing systems."
 repository               : "kjisu96/kjisu96.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -27,7 +27,7 @@ author:
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Post-doctoral Researcher @ KAIST"
   location         : "Daejeon, South Korea"
-  cv			         : "https://1drv.ms/b/c/c94eab2800bb3c1c/EWxDF8P87fJDnaa5X_PD-rQBaaENAK5slIki6fVpRdWDnw?e=QTpOgu"
+  cv               : "https://1drv.ms/b/c/c94eab2800bb3c1c/EWxDF8P87fJDnaa5X_PD-rQBaaENAK5slIki6fVpRdWDnw?e=QTpOgu"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3Wz73U4AAAAJ&hl=ko"
@@ -139,7 +139,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
