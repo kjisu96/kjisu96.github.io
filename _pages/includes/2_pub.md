@@ -1,23 +1,13 @@
 <header class="publications-header">
-  <div>
-    <p class="section-kicker">02 / OUTPUT</p>
-    <h2>Publications &amp;<br>intellectual property.</h2>
-  </div>
+  <p class="section-kicker">Selected output</p>
+  <h2>Publications &amp; intellectual property.</h2>
   <p>A compact index of peer-reviewed work and registered patents. Each result is presented as a single year-and-citation row.</p>
 </header>
-
-<div class="publication-summary" aria-label="Publication counts">
-  <span><strong>14</strong> Journals</span>
-  <span><strong>13</strong> Conferences</span>
-  <span><strong>05</strong> Patents</span>
-</div>
 
 <div class="publication-groups">
   <section class="publication-group" aria-labelledby="journal-heading">
     <header class="publication-group__header">
-      <span>01</span>
       <h3 id="journal-heading">Journal</h3>
-      <small>14 entries</small>
     </header>
     <ol class="publication-list">
       <li><time datetime="2025">2025</time><p><a href="https://doi.org/10.3390/app15031056">MAIL: Micro-Accelerator-in-the-Loop Framework for MCU Integrated Accelerator Peripheral Fast Prototyping</a> <span class="pub-venue">Applied Sciences</span> · <strong>Jisu Kwon</strong> and Daejin Park</p></li>
@@ -39,9 +29,7 @@
 
   <section class="publication-group" aria-labelledby="conference-heading">
     <header class="publication-group__header">
-      <span>02</span>
       <h3 id="conference-heading">Conference</h3>
-      <small>13 entries</small>
     </header>
     <ol class="publication-list">
       <li><time datetime="2025">2025</time><p><a href="https://doi.org/10.1109/VLSITSA64674.2025.11046543">Sliding-Window-based Fast and Lightweight ADC Pseudo-Randomness Compensation Technique for Low-Cost ADC</a> <span class="pub-venue">VLSI-TSA</span> · <strong>Jisu Kwon</strong> and Daejin Park</p></li>
@@ -62,9 +50,7 @@
 
   <section class="publication-group" aria-labelledby="patent-heading">
     <header class="publication-group__header">
-      <span>03</span>
       <h3 id="patent-heading">Patent</h3>
-      <small>05 entries</small>
     </header>
     <ol class="publication-list">
       <li><time datetime="2025">2025</time><p><a href="https://patents.google.com/patent/KR102835042B1/en">Artificial Intelligence Computing System and Method</a> <span class="pub-venue">KR Patent</span> · Daejin Park and <strong>Jisu Kwon</strong></p></li>

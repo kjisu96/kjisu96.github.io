@@ -9,11 +9,6 @@ redirect_from:
 ---
 
 <section class="profile-hero" id="about-me">
-  <div class="profile-hero__index" aria-hidden="true">
-    <span>PROFILE / 001</span>
-    <span>KAIST · DAEJEON</span>
-  </div>
-
   <div class="profile-hero__copy">
     <p class="eyebrow">Full-stack systems researcher</p>
     <h1>Hardware<span>—</span><br>Software<span>—</span><br>Firmware.</h1>
@@ -21,6 +16,12 @@ redirect_from:
     <div class="profile-hero__actions">
       <a class="button button--primary" href="#publications">View research output</a>
       <a class="button button--secondary" href="mailto:{{ site.author.email }}">Email me</a>
+    </div>
+    <div class="profile-hero__links" aria-label="Profile links">
+      <a href="https://github.com/{{ site.author.github }}">GitHub ↗</a>
+      <a href="{{ site.author.googlescholar }}">Scholar ↗</a>
+      <a href="{{ site.author.linkedin | prepend: 'https://www.linkedin.com/in/' }}">LinkedIn ↗</a>
+      <a href="{{ site.author.orcid }}">ORCID ↗</a>
     </div>
   </div>
 
@@ -30,19 +31,10 @@ redirect_from:
     </div>
     <figcaption>
       <strong>{{ site.author.name }}</strong>
-      <span>{{ site.author.bio }}</span>
-      <span>{{ site.author.location }}</span>
+      <span>{{ site.author.bio }} · {{ site.author.location }}</span>
     </figcaption>
   </figure>
 </section>
-
-<nav class="profile-links" aria-label="Profile links">
-  <span>Connect /</span>
-  <a href="https://github.com/{{ site.author.github }}">GitHub ↗</a>
-  <a href="{{ site.author.googlescholar }}">Scholar ↗</a>
-  <a href="{{ site.author.linkedin | prepend: 'https://www.linkedin.com/in/' }}">LinkedIn ↗</a>
-  <a href="{{ site.author.orcid }}">ORCID ↗</a>
-</nav>
 
 <section class="content-section content-section--tint" id="research" markdown="1">
 {% include_relative includes/0_intro.md %}
