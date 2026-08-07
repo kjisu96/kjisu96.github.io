@@ -1,14 +1,36 @@
-I am a post-doctoral researcher at the [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/)<img src='./images/KAIST_logo.jpg' style='width: 4em;'>, working in the VLSI Laboratory under the supervision of Prof. [Bongjin Kim](http://bongjin.com). 
+<div class="section-heading">
+  <p class="section-kicker">Research</p>
+  <h2>One research agenda, across the stack.</h2>
+  <p>I work where embedded software, digital hardware, and system verification meet.</p>
+</div>
 
-I received my Ph.D. in Electronic and Electrical Engineering from [Kyungpook National University](http://en.knu.ac.kr/) <img src='./images/knu.jpg' style='width: 3em;'> in August 2025, advised by Prof. [Daejin Park](https://ai-soc.github.io/) <img src='./images/lab.jpg' style='width: 5em;'>. I also earned my bachelor’s degree in Electronics Engineering from the same university in August 2019 (early graduation).
+<div class="about-copy" markdown="1">
+I am an Assistant Professor in the Department of Electronic Engineering at Korea National University of Transportation.
 
-My research mainly focuses on SW/HW full-stack with contributions in:
+I received my Ph.D. in Electronic and Electrical Engineering from [Kyungpook National University](http://en.knu.ac.kr/) in August 2025, advised by Prof. [Daejin Park](https://ai-soc.github.io/). I also earned my bachelor’s degree in Electronics Engineering from the same university in August 2019 (early graduation).
+</div>
 
-- ``SW`` ``FW`` Efficient embedded software: I have worked extensively on tackling challenges for on-chip flash firmware update, such as robustness, and efficiency. My work includes achieving efficient accelerator control firmware.
-- `HW` Efficient hardware design: I work to comprehensively mitigate hardware overhead, including Arm compatible CNN accelerators, ADC error compensation with MLP, and customized PCIe accelerator controllers. Some of my recent work, including MPW chips, is currently under review.
-- `HW` `SW` Efficient SoC verification platform: My work includes an emulator-simulator mixed framework to speed up partial RTL verification within SoCs, which is driven by embedded software.
-- `HW` Automotive IP RTL Design: My work includes communication interface module RTL design and AMBA bus integration for automotive sensor ASICs, such as DSI3, SENT, I2S.
+<div class="research-list">
+  <article>
+    <h3>Efficient firmware</h3>
+    <p>Robust, low-overhead on-chip flash updates and efficient accelerator-control firmware.</p>
+  </article>
+  <article>
+    <h3>Efficient hardware</h3>
+    <p>Arm-compatible CNN accelerators, ADC error compensation, and customized PCIe accelerator controllers.</p>
+  </article>
+  <article>
+    <h3>SoC verification</h3>
+    <p>Emulator-simulator frameworks that accelerate embedded-software-driven partial RTL verification.</p>
+  </article>
+  <article>
+    <h3>Automotive IP</h3>
+    <p>Communication-interface RTL and AMBA integration for DSI3, SENT, and I2S sensor ASICs.</p>
+  </article>
+</div>
 
-My research aims to achieve **efficient AI accelerator design and utilize by tightly-coupling all full-stack layers** of `HW`, `SW`, and `FW`. My 20+ published papers <a href='https://scholar.google.com/citations?user=3Wz73U4AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fkjisu96%2Fkjisu96.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> will be the basis of my research goal.
+<div class="research-statement" markdown="1">
+My research aims to achieve **efficient AI accelerator design by tightly coupling the full stack** of `HW`, `SW`, and `FW`. My 20+ published papers <a href='https://scholar.google.com/citations?user=3Wz73U4AAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fkjisu96%2Fkjisu96.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a> form the foundation of this goal.
 
-I was selected as the first integrated B.S./M.S./Ph.D. student at university and was awarded a Ph.D. Research Fellowship from the [National Research Foundation (NRF) of Korea](https://www.nrf.re.kr/eng/index).
+I was selected as the first integrated B.S./M.S./Ph.D. student at the university and was awarded a Ph.D. Research Fellowship from the [National Research Foundation (NRF) of Korea](https://www.nrf.re.kr/eng/index).
+</div>

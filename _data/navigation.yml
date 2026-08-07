@@ -1,28 +1,16 @@
 # main links links
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  - title: "Research"
+    url: "/research.html"
 
-#  - title: "News"
-#    url: "/#-news"
+  - title: "News"
+    url: "/news.html"
+
+  - title: "Team"
+    url: "/team.html"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/publications.html"
 
-  - title: "Patents"
-    url: "/#-patents"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Services"
-    url: "/#-services"
-
-  - title: "Chip Gallery"
-    url: "/#-chips"
+  - title: "Contact"
+    url: "/contact.html"
