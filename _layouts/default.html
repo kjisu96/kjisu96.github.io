@@ -12,10 +12,6 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
-    <div class="construction-banner" role="status">
-      <strong>Website under construction</strong>
-      <span>Content and structure are being updated.</span>
-    </div>
     {% include masthead.html %}
 
     <main id="main">
@@ -30,32 +26,6 @@ layout: compress
         </div>
       </article>
     </main>
-
-    <footer class="lab-footer">
-      <div class="lab-shell lab-footer__grid">
-        <div class="lab-footer__identity">
-          <strong>Jisu Kwon Research</strong>
-          <p>Full-stack co-design for efficient computing systems.</p>
-          <p>Department of Electronic Engineering</p>
-          <p>Korea National University of Transportation</p>
-        </div>
-        <nav aria-label="Research links">
-          <h5>Explore</h5>
-          <a href="/research.html">Research</a>
-          <a href="/news.html">News</a>
-          <a href="/team.html">Team</a>
-          <a href="/publications.html">Publications</a>
-        </nav>
-        <nav aria-label="Profile links">
-          <h5>Find us</h5>
-          <a href="mailto:{{ site.author.email }}">Email</a>
-          <a href="/contact.html">Contact</a>
-          <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-          <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-        </nav>
-      </div>
-      <div class="lab-shell lab-footer__bottom">© {{ 'now' | date: "%Y" }} Jisu Kwon Research · Korea National University of Transportation</div>
-    </footer>
 
     {% include scripts.html %}
 
