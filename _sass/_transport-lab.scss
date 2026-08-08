@@ -1086,42 +1086,6 @@ body summary:focus-visible {
   text-transform: uppercase;
 }
 
-/* Footer */
-
-.lab-footer {
-  flex: 0 0 auto;
-  padding: 48px 0 24px;
-  color: var(--lab-text);
-  background: var(--lab-bg);
-}
-
-.lab-footer__grid {
-  display: block;
-}
-
-.lab-footer__identity strong {
-  display: block;
-  margin: 0 0 13px;
-  color: var(--lab-ink);
-  font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.lab-footer__identity p {
-  margin: 0 0 3px !important;
-  color: var(--lab-muted);
-  font-size: 14px !important;
-}
-
-.lab-footer__bottom {
-  margin-top: 42px;
-  padding-top: 18px;
-  color: var(--lab-muted);
-  border-top: 1px solid var(--lab-line);
-  font-size: 12px;
-}
-
 @media (max-width: 1040px) {
   .lab-nav__links a {
     padding-right: 9px;
