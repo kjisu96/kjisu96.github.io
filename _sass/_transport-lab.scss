@@ -766,36 +766,28 @@ body summary:focus-visible {
 
 .lab-news-page__list > article {
   display: grid;
-  grid-template-columns: 170px minmax(0, 1fr);
-  gap: 34px;
-  padding: 38px 0 40px;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 22px;
+  align-items: baseline;
+  padding: 14px 0 15px;
   border-bottom: 1px solid var(--lab-line);
 }
 
 .lab-news-page time {
-  padding-top: 6px;
   color: var(--lab-green);
   font-size: 13px;
   font-weight: 600;
 }
 
 .lab-news-page h2 {
-  max-width: 850px;
-  margin: 0 0 10px;
+  max-width: none;
+  margin: 0;
   color: var(--lab-ink);
   font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 25px;
+  font-size: 17px;
   font-weight: 500;
-  line-height: 1.35;
-  letter-spacing: -0.025em;
-}
-
-.lab-news-page p {
-  max-width: 850px;
-  margin: 0 !important;
-  color: var(--lab-muted);
-  font-size: 15px !important;
-  line-height: 1.65;
+  line-height: 1.4;
+  letter-spacing: -0.015em;
 }
 
 /* Team page */
@@ -812,7 +804,7 @@ body summary:focus-visible {
 
 .lab-team-profile {
   display: grid;
-  grid-column: span 2;
+  grid-column: 1 / -1;
   grid-template-columns: 210px minmax(0, 1fr);
   gap: 30px;
   min-height: 292px;

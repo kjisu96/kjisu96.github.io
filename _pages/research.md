@@ -8,37 +8,37 @@ author_profile: false
 <section class="lab-detail-hero">
   <div class="lab-shell">
     <span class="lab-detail-hero__eyebrow">Research</span>
-    <h1>Full-stack co-design for efficient computing systems</h1>
-    <p>Hardware, software, and firmware are designed together to make intelligent computing systems more efficient and practical.</p>
+    <h1>Edge AI accelerators and hardware–software co-design</h1>
+    <p>Our research focuses on on-device AI hardware–software co-design, SoC and firmware design, and AI-aided electronic design automation.</p>
   </div>
 </section>
 
 <section class="lab-directions">
   <div class="lab-shell">
     <article class="lab-direction">
-      <div class="lab-direction__number">Direction 01</div>
+      <div class="lab-direction__number">Research 01</div>
       <div>
-        <h2>HW/SW/FW Co-Design</h2>
-        <p>Cross-layer methods for efficient AI accelerators and MCU-integrated computing systems.</p>
-        <div class="lab-tags"><span>AI accelerators</span><span>MCU systems</span><span>Cross-layer design</span></div>
+        <h2>On-Device AI HW/SW Co-Design</h2>
+        <p>Hardware and software are co-designed for efficient on-device AI and edge AI accelerator systems.</p>
+        <div class="lab-tags"><span>On-device AI</span><span>Edge AI accelerators</span><span>HW/SW co-design</span></div>
       </div>
     </article>
 
     <article class="lab-direction">
-      <div class="lab-direction__number">Direction 02</div>
+      <div class="lab-direction__number">Research 02</div>
       <div>
-        <h2>Efficient Hardware</h2>
-        <p>Arm-compatible CNN accelerators, ADC error compensation, and custom accelerator controllers.</p>
-        <div class="lab-tags"><span>CNN accelerators</span><span>ADC compensation</span><span>Processor design</span></div>
+        <h2>SoC &amp; Firmware Design</h2>
+        <p>System-on-chip architectures and firmware are designed together for embedded computing systems.</p>
+        <div class="lab-tags"><span>SoC</span><span>Firmware</span><span>Embedded systems</span></div>
       </div>
     </article>
 
     <article class="lab-direction">
-      <div class="lab-direction__number">Direction 03</div>
+      <div class="lab-direction__number">Research 03</div>
       <div>
-        <h2>SoC Verification</h2>
-        <p>Emulator-simulator frameworks for embedded-software-driven partial RTL verification.</p>
-        <div class="lab-tags"><span>RTL verification</span><span>Embedded software</span><span>Simulation</span></div>
+        <h2>AI-Aided EDA</h2>
+        <p>Artificial intelligence techniques are applied to electronic design automation for efficient hardware development.</p>
+        <div class="lab-tags"><span>AI for EDA</span><span>Design automation</span><span>Hardware design</span></div>
       </div>
     </article>
   </div>
