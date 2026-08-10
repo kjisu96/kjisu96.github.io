@@ -11,8 +11,8 @@ redirect_from:
 <section class="lab-hero" id="home">
   <div class="lab-shell">
     <h1>Full-stack co-design for <span class="tone-green">efficient AI accelerators</span>, <span class="tone-red">embedded platforms</span> and <span class="tone-blue">reliable SoC verification</span>.</h1>
-    <p class="lab-hero__lead">Jisu Kwon develops hardware, software, and firmware together to make intelligent computing systems more efficient and practical.</p>
-    <p class="lab-hero__meta">Jisu Kwon is an Assistant Professor in the Department of Electronic Engineering at Korea National University of Transportation.</p>
+    <p class="lab-hero__lead">Under construction, please stay tuned!</p>
+    <!-- <p class="lab-hero__meta">Jisu Kwon is an Assistant Professor in the Department of Electronic Engineering at Korea National University of Transportation.</p> -->
   </div>
 </section>
 
@@ -59,29 +59,31 @@ redirect_from:
     </header>
 
     <div class="lab-news-list">
-      <article class="lab-news-item">
+
+      <!-- <article class="lab-news-item">
         <time datetime="2025-08">August 2025</time>
         <div>
           <h3>Ph.D. in Electronic and Electrical Engineering completed.</h3>
           <p>Jisu Kwon received a Ph.D. from Kyungpook National University under the supervision of Prof. Daejin Park.</p>
         </div>
-      </article>
+      </article> -->
 
       <article class="lab-news-item">
+        <time datetime="2026-08">August 2026</time>
+        <div>
+        <p>Prof. Kwon joined KNUT as an Assistant Professor in the Dept. of Electronic Engineering. Welcome to the KNUT [TBD] Lab!</p>
+        </div>
+      </article>
+
+
+      <!-- <article class="lab-news-item">
         <time datetime="2023-09">September 2023</time>
         <div>
           <h3>National Research Foundation fellowship awarded.</h3>
           <p>Selected for a Ph.D. Research Fellowship from the National Research Foundation of Korea.</p>
         </div>
-      </article>
+      </article> -->
 
-      <article class="lab-news-item">
-        <time datetime="2023-08">August 2023</time>
-        <div>
-          <h3>Invited lecture at the PIM Semiconductor Research Center.</h3>
-          <p>Presented “Embedded C Programming for PIM Semiconductor” at KAIST.</p>
-        </div>
-      </article>
     </div>
   </div>
 </section>

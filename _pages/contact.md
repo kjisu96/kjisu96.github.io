@@ -32,7 +32,7 @@ author_profile: false
         </div>
         <div class="lab-contact-item__body">
           <span>Address</span>
-          <p>Smart ICT Building, Department of Electronic Engineering<br>Korea National University of Transportation<br>50 Daehak-ro, Chungju-si, Chungcheongbuk-do 27469, Republic of Korea</p>
+          <p>Smart ICT Bldg (E17). Room 628<br>50 Daehak-ro, Chungju-si, Chungbuk 27469, Republic of Korea</p>
         </div>
       </article>
 
@@ -44,8 +44,8 @@ author_profile: false
           <span>Scholar &amp; links</span>
           <div class="lab-contact-item__links">
             <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-            <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-            <a href="{{ site.author.orcid }}">ORCID</a>
+            <!-- <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+            <a href="{{ site.author.orcid }}">ORCID</a> -->
             <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
           </div>
         </div>
@@ -57,7 +57,7 @@ author_profile: false
         </div>
         <div class="lab-contact-item__body">
           <span>Prospective students</span>
-          <a href="mailto:{{ site.author.email }}?subject=Prospective%20student%20inquiry">Send an inquiry <span aria-hidden="true">→</span></a>
+          <a href="mailto:{{ site.author.email }}?subject=Prospective%20student%20inquiry">Just send me "I'm interested"!<span aria-hidden="true">→</span></a>
         </div>
       </article>
     </div>

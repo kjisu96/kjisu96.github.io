@@ -9,7 +9,7 @@ author_profile: false
   <div class="lab-shell">
     <span class="lab-detail-hero__eyebrow">Publications</span>
     <h1>Publications</h1>
-    <p>Peer-reviewed journal articles, conference papers, and registered patents. For the complete and most up-to-date list, see <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+    <p>Peer-reviewed journals, conference papers, and registered patents. For the complete and most up-to-date list, see <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
   </div>
 </section>
 

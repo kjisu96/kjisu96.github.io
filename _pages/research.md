@@ -9,7 +9,7 @@ author_profile: false
   <div class="lab-shell">
     <span class="lab-detail-hero__eyebrow">Research</span>
     <h1>Edge AI accelerators and hardware–software co-design</h1>
-    <p>Our research focuses on on-device AI hardware–software co-design, SoC and firmware design, and AI-aided electronic design automation.</p>
+    <p>Details are under construction!</p>
   </div>
 </section>
 
