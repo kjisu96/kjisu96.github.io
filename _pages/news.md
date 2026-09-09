@@ -17,7 +17,7 @@ author_profile: false
   <div class="lab-shell lab-news-page__list">
     <article>
       <time datetime="2026-08">August 2026</time>
-      <h2>Prof. Kwon joined KNUT as an Assistant Professor in the Dept. of Electronic Engineering. Welcome to the KNUT [TBD] Lab!</h2>
+      <h2>Prof. Kwon joined KNUT as an Assistant Professor in the Dept. of Electronic Engineering. Welcome to the KNUT OASys Lab!</h2>
     </article>
 
     <!-- <article>
