@@ -128,11 +128,10 @@ body summary:focus-visible {
 }
 
 .lab-brand__mark {
-  font-family: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 1;
-  letter-spacing: -0.09em;
+  display: block;
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 
 .lab-brand__divider {
